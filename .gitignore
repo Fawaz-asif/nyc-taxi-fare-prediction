@@ -1,0 +1,20 @@
+# Dataset (too large)
+data.csv
+archive*.zip
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Deployment helper
+deploy.py

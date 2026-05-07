@@ -1,0 +1,71 @@
+SUBMISSION CHECKLIST - Assignment 4 (NYC Taxi Fare Prediction)
+===============================================================
+
+Student: M FAWAZ ASIF
+Reg No:  B23F0115CS070
+University: Pak Austria Fachhochschule
+Course: Machine Learning - Semester 6
+
+
+1. HUGGING FACE LINK (Required)
+--------------------------------
+https://huggingface.co/spaces/fawazasif/nyc-taxi-fare-predictor
+
+Status: DEPLOYED AND RUNNING
+
+
+2. ZIP FILE CONTENTS (Required)
+--------------------------------
+The following files must be included in the ZIP:
+
+   [x] app.py                   - Gradio interface (main application)
+   [x] train_model.py           - Training script / notebook
+   [x] ann_model.joblib          - Trained ANN model file
+   [x] scaler.joblib             - Feature scaler (StandardScaler)
+   [x] feature_columns.joblib    - Feature column names
+   [x] requirements.txt          - Python dependencies
+   [x] README.md                 - Project documentation
+   [x] metrics.json              - Model performance metrics
+   [x] loss_curve.json           - Training loss curve data
+   [x] evaluation_plots.png      - Evaluation visualizations
+
+   Optional / helper files:
+   [ ] deploy.py                 - HF deployment script (optional)
+   [ ] data.csv                  - Dataset (DO NOT include, too large)
+
+
+3. HOW TO CREATE THE ZIP
+--------------------------
+Select these files in the Assignment 4 folder:
+   app.py, train_model.py, ann_model.joblib, scaler.joblib,
+   feature_columns.joblib, requirements.txt, README.md,
+   metrics.json, loss_curve.json, evaluation_plots.png
+
+Right-click > Send to > Compressed (zipped) folder
+Rename to: A4_B23F0115CS070_FAWAZ.zip
+
+
+4. MODEL SUMMARY
+------------------
+Algorithm:       Artificial Neural Network (MLPRegressor, scikit-learn)
+Architecture:    128 > 64 > 32 neurons
+Activation:      ReLU
+Optimizer:       Adam (adaptive learning rate)
+Dataset:         NYC Taxi Fare Prediction (6.4M rows, sampled ~960K)
+Test R-Squared:  0.9691
+Test MAE:        $0.42
+Test RMSE:       $1.99
+
+
+5. WHAT TO SUBMIT
+-------------------
+   a) Paste the Hugging Face link in the submission form/portal
+   b) Upload the ZIP file containing all source code, model, and requirements
+
+
+6. NOTES
+---------
+- The model uses scikit-learn MLPRegressor (ML-based ANN, not deep learning)
+- Dataset is the NYC TLC Yellow Taxi Trip Records (as required)
+- Interface is built with Gradio and deployed on Hugging Face Spaces
+- All preprocessing, feature engineering, and training code is included
