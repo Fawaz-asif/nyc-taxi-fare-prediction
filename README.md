@@ -15,6 +15,12 @@ short_description: Predict NYC taxi fares using ANN (MLPRegressor)
 
 Predict NYC yellow taxi fares using an **Artificial Neural Network (MLPRegressor)** trained on the NYC TLC Trip Records dataset.
 
+## Live Demo
+**[Try it on Hugging Face Spaces](https://huggingface.co/spaces/fawazasif/nyc-taxi-fare-predictor)**
+
+## Dataset
+**[NYC Taxi Fare Prediction - Kaggle](https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers)**
+
 ## Features
 - Real-time fare prediction based on trip parameters
 - 22 engineered features including time, distance, and location
