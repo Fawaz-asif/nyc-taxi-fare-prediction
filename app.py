@@ -498,12 +498,6 @@ with gr.Blocks(css=custom_css, title="NYC Taxi Fare Predictor", theme=gr.themes.
                 vendor, passenger count, rate code, payment type, time features
                 (hour, day of week, month), binary flags (weekend, rush hour, night),
                 and surcharge amounts.
-
-                ### Student Information
-                - **Name:** M FAWAZ ASIF
-                - **Reg No:** B23F0115CS070
-                - **University:** Pak Austria Fachhochschule
-                - **Course:** Machine Learning, Assignment 4, Semester 6
                 """
             )
 
