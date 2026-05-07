@@ -31,9 +31,3 @@ Predict NYC yellow taxi fares using an **Artificial Neural Network (MLPRegressor
 - **Algorithm:** MLPRegressor (scikit-learn)
 - **Architecture:** 128 → 64 → 32 neurons with ReLU activation
 - **Optimizer:** Adam with adaptive learning rate and early stopping
-
-## Student
-- **Name:** M FAWAZ ASIF
-- **Reg No:** B23F0115CS070
-- **University:** Pak Austria Fachhochschule
-- **Course:** Machine Learning - Assignment 4
